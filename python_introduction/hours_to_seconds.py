@@ -1,9 +1,8 @@
-#Converting hours to Seconds
-hours = 2 # number of hours 
-seconds = hours * 3600
+#Converting hours to seconds
 
+hours = 2 #in hours
+seconds = hours * 3600 #Multiply hours by 3600
 
-
-print("2 hours(s) is:", seconds)
+print("2 hour(s) is:" , seconds)
 
 
