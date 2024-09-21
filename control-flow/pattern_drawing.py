@@ -1,5 +1,5 @@
 
-size = int(input("Enter the size of the pattern"))
+size = int(input("Enter the size of the pattern: "))
 
 if size > 0:
     row =0
