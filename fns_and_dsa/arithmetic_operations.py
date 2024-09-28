@@ -1,4 +1,4 @@
-# Defining a function called peform_operation
+# Defining a function called perform_operation
 
 def perform_operation(num1, num2, operation):
 
