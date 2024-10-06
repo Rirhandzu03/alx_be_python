@@ -6,7 +6,7 @@ class Book:
         self._is_checked_out = False #Provate attribute to track availability
 
     def check_out(self):
-        """Check out hte book, making it unavailable."""
+        """Check out THe book, making it unavailable."""
         if not self._is_checked_out:
             self._is_checked_out =True
             return True
@@ -37,9 +37,6 @@ class Library:
 
     def check_out_book(self, title):
         """Check out a book by title."""
-    
-    def check_out_book(self, title):
-        """Check out a book by title."""
         for book in self.books:
             if book.title == title:
                 if book.check_out():
@@ -59,16 +56,15 @@ class Library:
                 else:
                     print(f"Book titled '{title}' not found in the library.")
 
-                    def list_available_books(self):
-                        """List all  the available books"""
-                        available_books = [book for book in self._books if book.is_available()]
-                        if available_books:
-                            for book in available_books:
-                                print(book)
+    def list_available_books(self):
+         """List all  the available books"""
+         available_books = [book for book in self._books if book.is_available()]
+         if available_books:
+              for book in available_books:
+                 print(book)
+         else:
+             print("No available books.")
 
-                        else:
-                            print("No available books.")
-                            
 
 
 
